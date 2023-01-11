@@ -1,0 +1,27 @@
+
+
+.Footer_Main{
+    background-color:#B8B8FF ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer_Left{
+    color: #F8F7FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.Footer_Left li{
+    list-style-type: none;
+    
+}
+
+
+
+.Footer_Right{
+    color: #FFD8BE;
+}

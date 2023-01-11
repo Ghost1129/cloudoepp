@@ -1,0 +1,14 @@
+
+.Learn_Main{
+    text-align: center;
+}
+
+.Learn_Inner{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Learn_Inner_Content img{
+    width: 200px;
+}
