@@ -12,7 +12,7 @@
 
 .About_Inner{
     display: flex;
-    gap: 10px;
+    gap: 40px;
     flex-direction: column;
 }
 
@@ -30,6 +30,10 @@
 
 
 @media screen and (min-width: 768px){
+
+    .About_Main{
+        padding: 40px 160px 40px 160px ;
+    }
     .About_Inner{
         flex-wrap: wrap;
         flex-direction: row;
@@ -39,3 +43,4 @@
         width: 30%;
     }
 }
+

@@ -10,6 +10,14 @@
     justify-content: space-between;
     margin: 16px;
 }
+.Navbar_Inner h2{
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+} 
 
 .Navbar_Inner > button{
     background-color: #F8F7FF;
@@ -18,7 +26,7 @@
     font-family: 'Noto Serif', serif;
     color: #000000;
     cursor: pointer;
-    padding: 6px;
+    padding: 8px;
     border-radius: 5px;
     border: #000000 1px solid;
     display: none;
@@ -32,13 +40,36 @@
 }
 
 .Navbar_Inner_Sec > a:hover{
-    color: #FF0000;
+    color: #B8B8FF;
 }
     
 
 
+@media screen and (min-width: 600px){
+    .Nav_Bar{
+        display:none;
+    }
 
+    .Navbar_Inner_Sec {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.Nav_Bar{
-    /* display:none; */
+    .Navbar_Inner_Sec > a{
+        display: flex;
+    }
+    .Navbar_Inner > button{
+        display: block;
+    }
+
+    .Navbar_Inner > button:hover{
+        background-color: #B8B8FF ;
+        color: #FFFFFF;
+    }
+    
+    
 }
+
+
+
